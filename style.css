@@ -47,13 +47,14 @@ table {
 	border-spacing: 0;
 }
 /*--------------------------------------------------------------------------------------------------------*/
-svg {
+.searchIcon {
     fill: rgb(66, 133, 244);
     width: 24px;
 }
 input {
     width: 100%;
     border: none;
+    font-size: 15px;
 }
 .logoContainer {
     display: flex;
@@ -74,6 +75,22 @@ input {
     display: flex;
     border-radius: 50px;
     border: solid 1px #dfe1e5;
+    min-width: 692px;
     width: 692px;
     height: 46px;
+}
+.googleProf {
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.rightIcons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 20px;
+}
+.appIcon {
+    width: 24px;
+    color: #73767b;
 }
