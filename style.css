@@ -55,14 +55,22 @@ input {
     width: 100%;
     border: none;
 }
-
+.logoContainer {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 10px 20px;
+}
+.svgContainer {
+    display: flex;
+    align-items: center;
+}
 .headerTop {
     display: flex;
 }
 .searchbox{
     margin-top: 20px;
     padding: 0px 20px 0px 20px;
-    margin-left: 50px;
+    margin-left: 40px;
     display: flex;
     border-radius: 50px;
     border: solid 1px #dfe1e5;
