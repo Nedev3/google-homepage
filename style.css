@@ -129,10 +129,14 @@ hr {
 .numResults{
     font-size: 14px;
     line-height: 43px;
+    color: #70757a;
 }
 .midColumn {
     width: 652px;
     margin-left: 180px;
     margin-right: 264px;
-    color: #70757a;
+}
+.resultCont{
+    margin-bottom: 28px;
+    line-height: 16.8px;
 }
