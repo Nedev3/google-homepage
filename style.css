@@ -112,6 +112,7 @@ input {
     float: right;
 }
 .pageNav{
+    margin-top: 10px;
     width: 690px;
     margin-left: 160px;
 }
@@ -121,6 +122,17 @@ hr {
     background-color: lightgrey;
     margin: 0px;
 }
-.active {
+#active {
+    color: #1A73E8; 
     border-bottom: 3px solid #1A73E8;
+}
+.numResults{
+    font-size: 14px;
+    line-height: 43px;
+}
+.midColumn {
+    width: 652px;
+    margin-left: 180px;
+    margin-right: 264px;
+    color: #70757a;
 }
